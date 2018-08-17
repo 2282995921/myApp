@@ -1,0 +1,1 @@
+<import src="../../../components/list-triplex-row$23b3bbae" /><template is="list-triplex-row$23b3bbae" data="{{ ...$root['0'], $root }}"/>

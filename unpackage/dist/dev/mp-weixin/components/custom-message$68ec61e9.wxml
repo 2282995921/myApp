@@ -1,0 +1,14 @@
+<import src="page-head$7d3e75a2" />
+<template name="custom-message$68ec61e9">
+  <view class="_view data-v-dc8b240c">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$7d3e75a2"></template>
+    <view class="_view data-v-dc8b240c page-body">
+      <view class="_view data-v-dc8b240c page-body-wrapper">
+        <text class="_text data-v-dc8b240c page-body-title"> 点击气泡icon打开客服消息界面 </text>
+        <view class="_view data-v-dc8b240c page-body-line">
+          <contact-button size="40" session-from="weapp" class="_contact-button data-v-dc8b240c"></contact-button>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,1 @@
+<import src="../../../components/canvas$cb8095c4" /><template is="canvas$cb8095c4" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,1 @@
+<import src="../../../components/rich-text$5c5a783c" /><template is="rich-text$5c5a783c" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,1 @@
+<import src="../../../components/list-with-collapses$d3221ae6" /><template is="list-with-collapses$d3221ae6" data="{{ ...$root['0'], $root }}"/>

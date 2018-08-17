@@ -1,0 +1,11 @@
+<template name="grid$7a58fb74">
+  <view class="_view data-v-4e4b9cb6 page">
+    <view class="_view data-v-4e4b9cb6 uni-grid-9">
+      <navigator url="{{'../news/details?title='+index}}" class="_navigator data-v-4e4b9cb6 uni-grid-9-item {{index % 3 === 2 ? 'no-border-right' : ''}}" hover-class="navigator-hover" wx:key="index" key="{{index}}" wx:for="{{date}}" wx:for-index="index"
+        wx:for-item="item">
+        <image class="_image data-v-4e4b9cb6 uni-grid-9-image" src="{{item}}"></image>
+        <text class="_text data-v-4e4b9cb6 uni-grid-9-text">grid</text>
+      </navigator>
+    </view>
+  </view>
+</template>

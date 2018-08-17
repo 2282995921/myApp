@@ -1,0 +1,11 @@
+<template name="search$33190756">
+  <view class="_view data-v-562f3fd0 search">
+    <view class="_view data-v-562f3fd0 href">
+      <view class="_view data-v-562f3fd0 search_icon">
+        <image src="../../static/search.png" height="14" width="14" alt class="_image data-v-562f3fd0"></image>
+        <text class="_text data-v-562f3fd0 text">搜索</text>
+      </view>
+      <input type="text" name="search" id="myFocus" disabled class="_input data-v-562f3fd0" />
+    </view>
+  </view>
+</template>

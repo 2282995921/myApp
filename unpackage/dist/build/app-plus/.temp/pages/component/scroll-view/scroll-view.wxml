@@ -1,0 +1,1 @@
+<import src="../../../components/scroll-view$25c15130" /><template is="scroll-view$25c15130" data="{{ ...$root['0'], $root }}"/>

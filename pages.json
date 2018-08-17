@@ -1,0 +1,64 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页
+		{
+			"path": "pages/component/component",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, {
+			"path": "pages/API/API",
+			"style": {
+				"navigationBarTitleText": "用电知识"
+			}
+		}, {
+			"path": "pages/template/template",
+			"style": {
+				"navigationBarTitleText": "联系我们"
+			}
+		}, {
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "地址管理"
+			}
+		},
+		{
+			"path": "pages/news/details",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/component/component",
+			"iconPath": "static/index-nomal.png",
+			"selectedIconPath": "static/index-active.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/API/API",
+			"iconPath": "static/api.png",
+			"selectedIconPath": "static/apiHL.png",
+			"text": "用电知识"
+		}, {
+			"pagePath": "pages/template/template",
+			"iconPath": "static/template.png",
+			"selectedIconPath": "static/templateHL.png",
+			"text": "联系我们"
+		}, {
+			"pagePath": "pages/news/news",
+			"iconPath": "static/address-nomal.png",
+			"selectedIconPath": "static/address-active.png",
+			"text": "地址管理"
+		}]
+	}
+}

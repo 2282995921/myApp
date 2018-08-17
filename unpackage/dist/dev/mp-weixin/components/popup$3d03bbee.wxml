@@ -1,0 +1,23 @@
+<import src="page-head$7d3e75a2" />
+<template name="popup$3d03bbee">
+  <view class="_view data-v-1a941492 page">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$7d3e75a2"></template>
+    <view class="_view data-v-1a941492 mask" hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"></view>
+    <view class="_view data-v-1a941492 popup popup-middle" hidden="{{!(showState.middle)}}">
+      <view class="_view data-v-1a941492 desc">
+        <text class="_text data-v-1a941492">Hello</text>
+      </view>
+    </view>
+    <view class="_view data-v-1a941492 popup popup-top" hidden="{{!(showState.top)}}">
+      <text class="_text data-v-1a941492">顶部 popup</text>
+    </view>
+    <view class="_view data-v-1a941492 popup popup-bottom" hidden="{{!(showState.bottom)}}">
+      <text class="_text data-v-1a941492">底部 popup</text>
+    </view>
+    <view class="_view data-v-1a941492 btn-row">
+      <button class="_button data-v-1a941492 btn" type="button" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">弹出 popup</button>
+      <button class="_button data-v-1a941492 btn" type="button" bindtap="handleProxy" data-position="top" data-eventid="{{'2'}}" data-comkey="{{$k}}">顶部弹出 popup</button>
+      <button class="_button data-v-1a941492 btn" type="button" bindtap="handleProxy" data-position="bottom" data-eventid="{{'3'}}" data-comkey="{{$k}}">底部弹出 popup</button>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,1 @@
+<import src="../../../components/scan-code$0444765d" /><template is="scan-code$0444765d" data="{{ ...$root['0'], $root }}"/>

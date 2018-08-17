@@ -1,0 +1,19 @@
+<import src="page-head$7d3e75a2" />
+<template name="on-compass-change$f7757a56">
+  <view class="_view data-v-d69cf7c0">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$7d3e75a2"></template>
+    <view class="_view data-v-d69cf7c0 page-body">
+      <view class="_view data-v-d69cf7c0 page-section page-section_center">
+        <text class="_text data-v-d69cf7c0 page-body-text">旋转手机即可获取方位信息</text>
+        <view class="_view data-v-d69cf7c0 direction">
+          <view class="_view data-v-d69cf7c0 bg-compass-line"></view>
+          <image class="_image data-v-d69cf7c0 bg-compass" src="../../../static/compass.png" style=" {{'transform: rotate(' + direction + 'deg)'}}"></image>
+          <view class="_view data-v-d69cf7c0 direction-value">
+            <text class="_text data-v-d69cf7c0">{{direction}}</text>
+            <text class="_text data-v-d69cf7c0 direction-degree">o</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

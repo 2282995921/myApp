@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/component/component",
+    "pages/API/API",
+    "pages/template/template",
+    "pages/news/news",
+    "pages/news/details"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/component/component",
+        "iconPath": "static/index-nomal.png",
+        "selectedIconPath": "static/index-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/API/API",
+        "iconPath": "static/api.png",
+        "selectedIconPath": "static/apiHL.png",
+        "text": "用电知识"
+      },
+      {
+        "pagePath": "pages/template/template",
+        "iconPath": "static/template.png",
+        "selectedIconPath": "static/templateHL.png",
+        "text": "联系我们"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "static/address-nomal.png",
+        "selectedIconPath": "static/address-active.png",
+        "text": "地址管理"
+      }
+    ]
+  }
+}

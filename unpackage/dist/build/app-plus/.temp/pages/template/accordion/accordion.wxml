@@ -1,0 +1,1 @@
+<import src="../../../components/accordion$499b2f41" /><template is="accordion$499b2f41" data="{{ ...$root['0'], $root }}"/>

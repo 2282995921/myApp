@@ -1,0 +1,25 @@
+<template name="swiper$791c6226">
+  <view class="_view data-v-1aebbae8">
+    <view class="_view data-v-1aebbae8 page-body">
+      <view class="_view data-v-1aebbae8 page-section page-section-spacing swiper">
+        <swiper indicator-dots="true" circular="true" indicator-active-color="rgb(255, 255, 255)" autoplay="true" interval="2000" duration="500" class="_swiper data-v-1aebbae8">
+          <swiper-item class="_swiper-item data-v-1aebbae8">
+            <view class="_view data-v-1aebbae8 swiper-item">
+              <image src="http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg" mode class="_image data-v-1aebbae8"></image>
+            </view>
+          </swiper-item>
+          <swiper-item class="_swiper-item data-v-1aebbae8">
+            <view class="_view data-v-1aebbae8 swiper-item">
+              <image src="http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg" mode class="_image data-v-1aebbae8"></image>
+            </view>
+          </swiper-item>
+          <swiper-item class="_swiper-item data-v-1aebbae8">
+            <view class="_view data-v-1aebbae8 swiper-item">
+              <image src="http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg" mode class="_image data-v-1aebbae8"></image>
+            </view>
+          </swiper-item>
+        </swiper>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,11 @@
+<import src="page-head$7d3e75a2" />
+<template name="icon$fc907084">
+  <view class="_view data-v-71da1c8f page">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$7d3e75a2"></template>
+    <view class="_view data-v-71da1c8f flex-container">
+      <view class="_view data-v-71da1c8f icon-item" wx:key="index" key="{{index}}" wx:for="{{iconClassList}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-71da1c8f uni-icon {{[item, activeIndex === index ? 'uni-active' : '']}}" bindtap="handleProxy" data-eventid="{{'0-'+index}}" data-comkey="{{$k}}"></view>
+      </view>
+    </view>
+  </view>
+</template>

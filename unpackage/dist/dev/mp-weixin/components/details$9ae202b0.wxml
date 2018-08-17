@@ -1,0 +1,5 @@
+<template name="details$9ae202b0">
+  <view class="_view data-v-141b6124">
+    <text class="_text data-v-141b6124">id:{{id}}</text>
+  </view>
+</template>
